@@ -1,6 +1,6 @@
 describe('Pruebas de navegación en el navbar', () => {
     beforeEach(() => {
-      cy.visit('http://localhost:4200/reportes');  // Asegúrate de que esta URL sea la correcta en tu proyecto
+      cy.visit('http://localhost:4200/administrador');  // Asegúrate de que esta URL sea la correcta en tu proyecto
     });
   
     it('Debería navegar a la página de reportes', () => {
